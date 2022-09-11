@@ -1,0 +1,97 @@
+
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 1;
+    margin: 1;
+    background-image: url(yellow_laptop.jpg); 
+}
+
+.social{
+    position: absolute;
+    left: 50%;
+    top: 91%;
+    transform: translate(-50%, -50%);
+}
+
+.social a{
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    transition: 0.5s all;
+    float: left;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid #9ffb4e;
+    color: #ffffff;
+}
+
+.linkedin{
+    background: #464646; 
+    background-image: url(linkedin.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+
+
+    
+
+}
+
+.github{
+    background: #464646;
+    background-image: url(github.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.twitter{
+    background: #464646;
+    background-image: url(twitter-sign.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.email{
+    background: #464646;
+    background-image: url(email.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+    
+}
+.phone{
+    background: #464646;
+    background-image: url(viber.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.whatsapp{
+    background: #464646;
+    background-image: url(whatsapp.png);
+    background-position: center;
+    background-size: 1rem;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.social a: :hover{
+    margin-top: -10px;
+    background-color: 0.5;
+}
