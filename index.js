@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="tagline">Welcome to my Portfolio</span>
                         <h1>Hi! I'm Ebru</h1>
                         <p>I am a founder Pepper Tech Studio, a software studio in London. I am a MSc degree Software Engineer specializing in backend with .NET experience. Let's your business idea well cook with creative development.</p>
-                        <button class="button"><span>Get a Quote</span></button>
+                        <button class="button"><a href="#footer" style="display: block;"><span>Get a Quote</a></span></button>
                     </div>
                     <div class="col-xs-12 col-md-6 col-xl-5 animate__animated animate__zoomIn">
                         <img src="assets/img/header-img.png" alt="Header Img">
@@ -149,23 +149,29 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-sm-6 text-center">
-          <img src="assets/img/logo.png" alt="Logo" class="logo">
+        <span class="footer-text">
+        <img href="" src="assets/img/logo.png" alt="Logo" style="width: 50%; width="40" height="40" class=" align-bottom">
         </div>
-        <div class="col-12 col-sm-6 text-center text-sm-end">
-          <div class="footer-icon">
+
+
+        
+          <div class="ms-auto footer-icon">
             <a href="mailto:kemikkiranebru@hotmail.com">
-              <img src="assets/img/email.png" alt="Email" class="icon">
+              <img src="assets/img/email.png" alt="Email" class="icon" style="width: 80%; filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);">
             </a>
             <a href="https://wa.me/+447379952444">
-              <img src="assets/img/whatsapp.png" alt="Whatsapp" class="icon">
+              <img src="assets/img/whatsapp.png" alt="Whatsapp" class="icon" style="width: 80%; filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);">
             </a>
           </div>
-        </div>
+        
+        </span>
         <p class="col-12 col-sm-6 text-center text-sm-end">Copyright 2022. All Rights Reserved by Ebru Kemikkiran</p>
       </div>
     </div>
   </footer>
 </section>
+
+
 
     `;
 

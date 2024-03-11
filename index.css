@@ -315,7 +315,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-top: 5px;
 }
 
-
+.banner a {
+  color: #fff !important;
+}
 
 
 .banner img {
@@ -631,31 +633,35 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  bottom:0;
+  width: 100%;
 }
 
 
-.logo {
-  width: 80%; /* Logo genişliği ayarı */
-  max-width: 200px; /* Maksimum logo genişliği */
-  margin: 0 auto; /* Logo'yu ortalamak için */
-}
+
 
 .footer-icon {
   margin-top: 20px; /* İkonlar arası boşluk ayarı */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Sağ tarafa hizalama */
 }
 
 .footer-icon a {
   width: 48px;
   height: 48px;
-  background: rgba(252, 250, 250);
   display: inline-flex;
   border-radius: 50%;
   margin-right: 6px;
   align-items: center;
   justify-content: center;
-  line-height: 1;
-  border: 1px solid rgba(255, 255, 255, 0.5);
 }
+
+span.footer-text {
+  display: flex;
+  align-items: center;
+}
+
 .footer-icon a::before {
   content: "";
   width: 42px;
@@ -666,6 +672,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(0);
 transition: 0.3s ease-in-out;
 }
+
+
 .footer-icon a:hover::before {
   transform: scale(1);
 }
