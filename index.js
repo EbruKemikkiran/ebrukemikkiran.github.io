@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       
             <div class="ms-auto social-icon">
-              <a href="#"><img src="assets/img/linkedin.png" alt="LinkedIn"></a>
-              <a href="#"><img src="assets/img/twitter.png" alt="Twitter"></a>
-              <a href="#"><img src="assets/img/github.png" alt="GitHub"></a>
+              <a href="https://www.linkedin.com/in/ebru-kemikkiran-90b86ab2" target="blank"><img src="assets/img/linkedin.png" alt="LinkedIn"></a>
+              <a href="https://twitter.com/EKemikkirann" target="blank"><img src="assets/img/twitter.png" alt="Twitter"></a>
+              <a href="https://github.com/EbruKemikkiran" target="blank"><img src="assets/img/github.png" alt="GitHub"></a>
             </div>
                 
             
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="col-xs-12 col-md-6 col-xl-7 animate__animated animate__fadeIn">
                         <span class="tagline">Welcome to my Portfolio</span>
                         <h1>Hi! I'm Ebru</h1>
-                        <p>I am a founder Pepper Tech, a software studio in London. I am a MSc degree Computer Scientist specializing in web and data science development experience. I am currently building mobile apps and composing music with Machine Learning and AI. Let's your business idea well cook with creative development.</p>
+                        <p>I am a founder Pepper Tech Studio, a software studio in London. I am a MSc degree Software Engineer specializing in backend with .NET experience. Let's your business idea well cook with creative development.</p>
                         <button class="button"><span>Get a Quote</span></button>
                     </div>
                     <div class="col-xs-12 col-md-6 col-xl-5 animate__animated animate__zoomIn">
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="row">
                 <div class="col">
                     <h2>Projects</h2>
-                    <p>I have experience in backend module projects developed with .NET I also have .NET API and Blazor projects built with HTML5, CSS, and JavaScript. You can take a look at some prototypes of these projects on my GitHub repositories. Additionally, I am currently developing hybrid web and mobile applications with .NET MAUI.</p>
+                    <p>I have experience in backend module projects developed with .NET. I also have fullstack .NET API and Blazor projects some of them built with HTML5, CSS, and JavaScript. You can take a look at some prototypes of these projects on my GitHub repositories. Additionally, I am currently developing hybrid web and mobile applications with .NET MAUI.Please stay in touch with me to check out my private repositories on GitHub.</p>
 
                     <div id="projects-tabs">
                     <ul class="nav nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>Software Development</h2>
                     <p>Experience in backend module projects developed with .NET. Also I have projects with .NET API. You can take a look at some prototypes of these projects on my GitHub repositories. Additionally, I am currently developing hybrid web and mobile applications with .NET MAUI.</p>
                     <div class="proj-imgbx">
-                        <img src="assets/img/project-img5.jpg" alt="title" />
+                    <a href="https://github.com/EbruKemikkiran" target="_blank"><img src="assets/img/project-img5.jpg" alt="title" /></a>
                     </div>
                 </div>
                 
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>Web Development</h2>
                     <p>Experience in full stack projects built with HTML5, CSS, and JavaScript, PHP, and .NET Blazor. You can take a look at some prototypes of these projects on my GitHub repositories as well.</p>
                     <div class="proj-imgbx">
-                        <img src="assets/img/project-img1.jpg" alt="title" />
+                        <a href="https://github.com/EbruKemikkiran" target="_blank"><img src="assets/img/project-img1.jpg" alt="title" /><a/>
                     </div>
                 </div>
                         
@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="col-12">
                   <div class="skill-bx wow zoomIn">
                     <h2>Skills</h2>
-                    <p>As a backend software engineer, I work with .NET Framework API and Blazor. I develop modern, simple websites and full-stack web applications using HTML, CSS, and JavaScript, tailored to my clients' requirements. I have an advanced proficiency in SQL and database management.</p>
+                    <p>As a backend software engineer, I work with .NET Framework and .NET API. I develop modern, simple websites and full-stack web applications using .NET Blazor, HTML, CSS, and JavaScript, tailored to my clients' requirements and consultant their techonolgy requirements. I have a proficiency in SQL and database management.</p>
           
                     <div id="skill-slider" class="owl-carousel owl-theme skill-slider">
 
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       </div>
 
                       <div class="item">
-                      <h5>Technology Concultant</h5>
+                      <h5>Technology Consultant</h5>
                         <img src="assets/img/meter3.png" alt="Image" />
                       </div>
                       
