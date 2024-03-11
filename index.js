@@ -156,10 +156,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         
           <div class="ms-auto footer-icon">
-            <a href="mailto:kemikkiranebru@hotmail.com">
+            <a href="mailto:kemikkiranebru@hotmail.com" target="blank">
               <img src="assets/img/email.png" alt="Email" class="icon" style="width: 80%; filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);">
             </a>
-            <a href="https://wa.me/+447379952444">
+            <a href="https://wa.me/+447379952444" target="blank">
               <img src="assets/img/whatsapp.png" alt="Whatsapp" class="icon" style="width: 80%; filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(100%) hue-rotate(0deg) brightness(100%) contrast(100%);">
             </a>
           </div>
