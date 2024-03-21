@@ -48,7 +48,7 @@ function Banner() {
         <nav class="navbar-brand">
     <div class="container">
       <span class="navbar-text">
-        <img href="" src="assets/img/logo.png" alt="Logo" style="width: 30%; width="40" height="40" class="d-inline-block align-top">
+        <img href="" src="assets/img/logo.png" alt="Logo" style="width: 30%; width="40px"; height="40px"; class="d-inline-block align-top">
      
 
       
