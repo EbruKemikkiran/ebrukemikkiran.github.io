@@ -415,6 +415,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   position: relative;
   background-color: black;
+  height: 1400px;
+  
+}
+
+@media (max-width: 390px) {
+  .project {
+  height: 1200px !important;
+  
+}
 }
 
 .project h2 {
@@ -584,6 +593,7 @@ height:660px;
   background-image: url('../img/color-sharp2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+ 
 }
 .skill-bx {
   background: #000000;
